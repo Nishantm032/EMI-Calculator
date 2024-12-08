@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.container{
+    background-color: purple;
+    border: 1px solid black;
+    width: 450px;
+   text-align: center;
+   border-radius: 10px;
+   box-shadow: 0 0 10px 0 rgba(0, 0 ,0 ,0.5);
+   padding: 20px;
+   
+}
+
+.header{
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.load-amount-info , .Interest-rate-info , .Month-pay-info {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgbs(0, 0, 0, 0.5);
+}
+
+#calculate{
+    padding: 10px;
+    width: 120px;
+    font-size: 16px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#calculate:hover{
+    background-color: aqua;
+    transition: 1s;
+}
+
+.result  {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#emi{
+    color:red;
+}
+
